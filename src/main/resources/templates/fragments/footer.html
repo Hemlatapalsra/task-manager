@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<footer th:fragment="footer" class="footer">
+    <style>
+        footer.footer {
+            background-color: #dbeafe; /* Light blue background */
+            color: #333;               /* Dark text for contrast */
+            padding: 5px 0;
+            font-size: 0.9rem;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        footer.footer p {
+            margin: 2px 0;
+        }
+
+        footer.footer a {
+            color: #0d6efd;            /* Bootstrap primary blue for links/icons */
+            font-size: 1.1rem;
+            margin-right: 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer.footer a:hover {
+            color: #084298;            /* Darker blue on hover */
+        }
+    </style>
+
+    <div class="container">
+        <p class="mb-1">&copy; 2025 Task Manager | All Rights Reserved</p>
+        <p class="small">Designed with ❤️ by <b>Hem Lata</b></p>
+        <div>
+            <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

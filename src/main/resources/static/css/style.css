@@ -1,0 +1,13 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Image should not overflow */
+img {
+    object-fit: cover;
+}
+
+/* Ensure content does not scroll unnecessarily */
+.container {
+    min-height: 100vh;
+}
